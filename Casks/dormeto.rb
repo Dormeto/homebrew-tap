@@ -7,25 +7,25 @@ cask "dormeto" do
     end
   end
 
-  version "0.10.0"
+  version "0.11.0"
 
   on_macos do
     on_arm do
-      sha256 "d4c0faddb3eba1baf0f37b46767226596c5eb3c66727bca8c56940aea408f32e"
+      sha256 "079e27517eacdb93934a6f386ec9452a222b986ece779cfdbf5746d2f8e9e12d"
       url "https://github.com/Dormeto/cli/releases/download/v#{version}/dormeto_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "92b69487025c2880965847aaf05f813bc8cb2f2fc04dfb9011bc99b63994e894"
+      sha256 "0d37bfc3f3d14e30d62386564992e202e84ad3d824a5c43e40a7c324d454a315"
       url "https://github.com/Dormeto/cli/releases/download/v#{version}/dormeto_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "9d97537631bf0738b5b1277b85242808a36665e8e690860672fdb22c4fc4e62e"
+      sha256 "d12d0c3a0af30ed57e60b5dd5bc650bb253c1deee6aa904c9e73a49e42ebf81d"
       url "https://github.com/Dormeto/cli/releases/download/v#{version}/dormeto_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "40e7015ee3de4fdac0c52e9340d65d6822f6eec2dceaf62aac6a906bb6b6cd0e"
+      sha256 "d01dc1321ab849164337a0eb7646456379d9a15abb257d0c7620281e41252a9b"
       url "https://github.com/Dormeto/cli/releases/download/v#{version}/dormeto_#{version}_linux_amd64.tar.gz"
     end
   end
